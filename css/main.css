@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+}
+
+
+h4{
+  background-color: #FF8C00;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  height: 50px;
+  margin-left: 10%;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 50px;
+  width: 80%;
+}
+
+
+ a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.uno{
+  background-color: #A9A9A9;
+  display: block;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  margin-left: 10%;
+  padding: 20px;
+  text-align: left;
+  text-shadow: 50px;
+  width: 80%;
+}
+.uno:hover{
+  background-color: #FF8C00;
+  color: #FFFFFF;
+}
+
+.dos{
+  background-color: #A9A9A9;
+  display: block;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  padding: 20px;
+  margin-left: 10%;
+  text-align: left;
+  text-shadow: 50px;
+  width: 80%;
+  }
+.dos:hover{
+  background-color: #FF8C00;
+  color: #FFFFFF;
+}
+
+.tres{
+  background-color: #A9A9A9;
+  display: block;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  margin-left: 10%;
+  padding: 20px;
+  text-align: left;
+  text-shadow: 50px;
+  width: 80%;
+}
+.tres:hover{
+  background-color: #FF8C00;
+  color: #FFFFFF;
+}
