@@ -6,38 +6,38 @@
 
 body{
   color: #FFFFFF;
-  text-align: center;
   font-size: 100px;
+  text-align: center;
 }
 
 .container{
-  width: 95%;
   margin: 0 auto;
   max-width: 1000px;
   overflow: hidden;
+  width: 100%;
 }
 
 .a{
   background-color: #FFFF00;
-  width: 100%;
-  height: 100px;
+  height: 130px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .b{
   background-color: #40E0D0;
-  width: 65%;
-  height: 500px;
   float: left;
+  height: 500px;
+  width: 65%;
 }
 
 .c{
  background-color: 	#EE82EE;
-width: 32%;
-height: 500px;
-float: right;
-
+ float: right;
+ height: 500px;
+ width: 32%;
 }
+
 
 @media all and (max-width: 800px) {
 body{
@@ -49,13 +49,12 @@ body{
 }
 
 .b{
-  width: 100%;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .c{
-  width: 100%;
   height: 100px;
-}
-
+  width: 100%;
+ }
 }
