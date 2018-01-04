@@ -15,10 +15,10 @@ body{
 */
 .container{
   margin: 0 auto;
-  width: 1024px;
+  width: 1200px;
   overflow: hidden;
   padding: 10px 10px;
-  width: 90%;
+  width: 100%;
 }
 
 .a{

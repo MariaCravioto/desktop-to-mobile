@@ -25,7 +25,7 @@
   float: left;
   height: 300px;
   margin-bottom: 10px;
-  width: 650px;
+  width: 77%;
  }
 
  .box-left{
@@ -37,6 +37,7 @@
 
  .box-little{
   margin-top: 10px;
+  float: left;
   width: 100%;
  }
 
@@ -44,12 +45,12 @@
   background-color: #1E90FF;
   float: left;
   height: 200px;
-  width: 26.2%;
+  width: 25%;
  }
 
  .container{
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 1200px;
   overflow: hidden;
   padding: 10px 10px;
   width: 100%;
@@ -60,7 +61,7 @@
   float: left;
   height: 200px;
   margin-left: 10px;
-  width: 26.2%;
+  width: 25%;
  }
 
  .e {
@@ -68,16 +69,16 @@
   float: left;
   height: 200px;
   margin-left: 10px;
-  width: 26.2%;
+  width: 25%;
  }
 
  .f {
   background-color: #EE82EE;
   display: inline-block;
   float: right;
-  height: 510px;
-  margin-top: -510px;
-  width: 33%;
+  height: 520px;
+  margin-top: -520px;
+  width: 37%;
  }
 
 /*
