@@ -10,16 +10,20 @@ body{
   text-align: center;
 }
 
+/*
+*desktop
+*/
 .container{
   margin: 0 auto;
-  max-width: 1000px;
+  width: 1024px;
   overflow: hidden;
-  width: 100%;
+  padding: 10px 10px;
+  width: 90%;
 }
 
 .a{
   background-color: #FFFF00;
-  height: 130px;
+  height: 200px;
   margin-bottom: 20px;
   width: 100%;
 }
@@ -27,19 +31,46 @@ body{
 .b{
   background-color: #40E0D0;
   float: left;
-  height: 500px;
+  height: 750px;
   width: 65%;
 }
 
 .c{
- background-color: 	#EE82EE;
+ background-color: #EE82EE;
  float: right;
- height: 500px;
- width: 32%;
+ height: 750px;
+ width: 33%;
 }
 
+/*
+*ipad
+*/
+@media all and (max-width: 768px) {
+body{
+  background-color: #000;
+}
 
-@media all and (max-width: 800px) {
+.a{
+  height: 200px;
+  width: 100%;
+}
+
+.b{
+  height: 550px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.c{
+  height: 200px;
+  width: 100%;
+ }
+}
+
+/*
+*mobile
+*/
+@media all and (max-width: 375px) {
 body{
   background-color: #000;
 }
@@ -49,6 +80,7 @@ body{
 }
 
 .b{
+  height: 300px;
   margin-bottom: 20px;
   width: 100%;
 }
